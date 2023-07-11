@@ -1,0 +1,35 @@
+.task-list-container {
+    /* display: grid; */
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 20px;
+  }
+  
+  .task {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .task h1 {
+    margin-bottom: 10px;
+  }
+  
+  .task button {
+    padding: 5px 10px;
+    border-radius: 3px;
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .task button:hover {
+    background-color: #c82333;
+  }
+  
+  .task button + button {
+    margin-left: 10px;
+  }
+  

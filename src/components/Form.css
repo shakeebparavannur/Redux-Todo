@@ -1,0 +1,35 @@
+.form-container {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .form-container h1 {
+    margin-bottom: 10px;
+  }
+  
+  .form-container form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .form-container input {
+    padding: 5px 10px;
+    margin-right: 10px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+  }
+  
+  .form-container button {
+    padding: 5px 10px;
+    border-radius: 3px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .form-container button:hover {
+    background-color: #0056b3;
+  }
+  
